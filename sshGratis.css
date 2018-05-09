@@ -1,0 +1,55 @@
+.bd-pageheader {
+    padding: 30px 5px 10px 5px;
+    color: #fff;
+    text-align: left;
+    background-color: #4285f4;
+}
+.bd-pageheader h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    color: #fff;
+}
+.bd-pageheader p {
+    margin-bottom: 0;
+    font-size: 6;
+    font-weight: 300;
+    color:#fff;
+    }
+
+#list-server{
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+#s-hover{
+    box-shadow: none;
+    transition: 0.2s;
+}
+#s-hover:hover{
+    box-shadow: 1px 1px 10px #ddd;
+    transition: 0.2s;
+}
+
+
+.service_icon{
+    padding: 5px;
+    font-size: 35px;
+    text-align: center;
+  }
+.service_block{
+
+  color:  #007bff;
+  padding: 5px 10px;
+  text-align:center;
+  border:1px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+.service_block h4,p{
+  color: #212529;
+}
+.service_block:hover{
+  color:  #212529;
+  border:1px solid #ddd;
+  transition: all 0.3s ease-in-out;
+}
